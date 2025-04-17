@@ -1,3 +1,20 @@
-# Machine Learning Classification of Urban Bike-Sharing Users
+# Discovering Student Performance Patterns with K-means and Hierarchical 
+## Abstract
+xx
+## Analysis workflow
+### 1. Data overview and preparation
 
-This project explores binary classification of user types (member vs. casual) in an urban bike-sharing system using multiple machine learning models. The goal is to predict user types based on trip behavior, time, and bike type features. Models used include logistic regression, classification trees, and SVM. 
+### 2. Feature selection and scaling
+
+### 3. Principal component analysis (PCA)
+
+### 4. Clustering methods
+#### 4.1. K-meansing clustering
+#### 4.2 Hierarchical clustering 
+
+### 5. Evaluation and comparison
+
+#### 5.1 Cluster vs class label matching
+#### 5.2 Adjusted Rand Index (ARI)
+
+### 6. Conclusion
