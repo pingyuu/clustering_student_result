@@ -5,7 +5,7 @@ This project investigates student performance data using unsupervised learning t
 To identify meaningful performance patterns among students by applying unsupervised learning techniques on academic score data. This can support data-driven decision-making in educational evaluation and student profiling.
 ## Analysis workflow
 ### 1. Data overview and preparation
-The dataset used in this study is downloaded from [Kaggle](https://www.kaggle.com/datasets/ntambaraetienne/students-dataset-for-graduation-classes-at-rp/data), created by Ntambara Etienne, and is provided under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+The dataset used in this study is downloaded from [Kaggle](https://www.kaggle.com/datasets/ntambaraetienne/students-dataset-for-graduation-classes-at-rp/data), created by Ntambara Etienne, and is provided under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) The working dataset used in this project (student_results.xlsx) is a local copy saved from the original Kaggle file to ensure safe access and reproducibility.
 This dataset contains 200 observations and 10 variables, including students'ID, total score, percentage score, class label, and scores from 5 academic subjects. The variables are mostly numeric, with the exception of the Class variable, which is categorical and represents the final performance levele of the student (e.g.m "First Class", "Second Class", "Lower Class", "Pass Class", "Fail"). There are no missing values in the dataset.
 ### 2. Feature selection and scaling
 Selected 6 subject scores, along with the total score and percentage variables. All chosen features were standardized using z-score normalization to ensure comparability acrossdifferent scales.
